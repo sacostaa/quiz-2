@@ -22,6 +22,16 @@ public class Gato extends Mascota{
     public String hacersonido() {
         return "miau";
     }
+
+    public boolean isEscazador() {
+        return escazador;
+    }
+
+    public void setEscazador(boolean escazador) {
+        this.escazador = escazador;
+    }
+    
+    
     
     
     

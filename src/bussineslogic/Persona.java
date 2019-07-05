@@ -12,7 +12,7 @@ public class Persona {
     public Persona(String nombre, int id) {
         this.nombre = nombre;
         this.id = id;
-        this.mascotas = mascotas;
+        this.mascotas = new ArrayList <Mascota>();
     }
 
     public String getNombre() {
